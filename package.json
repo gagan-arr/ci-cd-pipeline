@@ -1,0 +1,13 @@
+{
+  "name": "ci-cd-pipeline",
+  "version": "1.0.0",
+  "description": "Simple CI/CD demo app",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

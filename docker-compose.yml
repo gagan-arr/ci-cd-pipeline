@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  web:
+    image: ${DOCKERHUB_USERNAME:-your-dh-username}/ci-cd-pipeline:latest
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
